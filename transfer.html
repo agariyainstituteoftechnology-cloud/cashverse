@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transfer | CashVerse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css"
+    />
+    <style>
+      .w-72 {
+        width: 18rem;
+      }
+
+      .inset-active-link {
+        box-shadow: inset 0.25rem 0 0 0 #805ad5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex text-gray-800 min-h-screen overflow-x-hidden">
+      <aside
+        class="hidden z-40 top-0 bottom-0 md:top-auto md:bottom-auto md:flex flex-col w-72 bg-white shadow-sm"
+      >
+        <a href="#" class="flex flex-col items-center my-10">
+          <img
+            src="images/logo.jpg"
+            alt="CashVerse Logo"
+            class="h-24 w-24 object-cover rounded-full shadow-lg border-1 border-purple-500"
+          />
+          <h2
+            class="mt-4 text-2xl font-extrabold text-purple-700 tracking-wide"
+          >
+            CashVerse
+          </h2>
+        </a>
+        <a
+          href="transfer.html"
+          class="block text-center text-white text-lg font-semibold bg-purple-600 hover:bg-purple-700 py-3 px-4 mx-8 rounded-lg"
+          >Transfer money</a
+        >
+        <nav class="font-semibold text-gray-600 my-12">
+          <ul class="space-y-3">
+            <li>
+              <a
+                href="dashboard.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                  />
+                </svg>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a
+                href="deposite.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                  />
+                </svg>
+                Deposit
+              </a>
+            </li>
+            <li>
+              <a
+                href="withdraw.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  />
+                </svg>
+                Withdraw
+              </a>
+            </li>
+            <li>
+              <a
+                href="transfer.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r from-purple-200 text-purple-600 inset-active-link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 10l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+                Transfer
+              </a>
+            </li>
+            <li>
+              <a
+                href="history.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                History
+              </a>
+            </li>
+            <li>
+              <a
+                href="calendar.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  />
+                </svg>
+                Calendar
+              </a>
+            </li>
+            <li>
+              <a
+                href="profile.html"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                Settings
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                id="logoutBtn"
+                class="flex items-center px-8 py-3 bg-gradient-to-r hover:from-purple-200 hover:text-purple-600"
+              >
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-5 w-5 mr-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                Logout
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="flex flex-col items-center py-3 px-4 bg-purple-200 bg-opacity-50 rounded-md mt-auto mb-10 mx-8"
+        >
+          <span class="font-semibold text-gray-900">Start saving!</span>
+          <a href="#" class="text-purple-600 font-medium underline"
+            >Upgrade to PRO</a
+          >
+        </div>
+      </aside>
+      <div class="flex-grow bg-gray-100">
+        <header class="mt-12 px-16">
+          <div class="flex items-center mb-2">
+            <h1 class="text-3xl font-bold text-purple-700 mr-4">
+              Instant Fund Transfer
+            </h1>
+
+            <div class="ml-auto flex items-center space-x-3">
+              <button
+                class="p-2 text-gray-600 relative bg-white rounded-full shadow hover:bg-gray-100 hover:text-gray-700"
+              >
+                <span
+                  class="absolute top-0 right-0 h-3 w-3 bg-red-500 rounded-full mt-1 mr-2"
+                ></span>
+                <span
+                  class="absolute top-0 right-0 h-3 w-3 bg-red-500 rounded-full mt-1 mr-2 animate-ping"
+                ></span>
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-6 w-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                  />
+                </svg>
+              </button>
+              <button
+                class="h-10 w-10 bg-gray-200 border shadow rounded-full overflow-hidden"
+              >
+                <img
+                  src="images/avatar.jpg"
+                  class="h-full w-full object-cover"
+                />
+              </button>
+            </div>
+          </div>
+        </header>
+        <!-- Main Content -->
+        <main class="bg-gray-100">
+          <div
+            class="max-w-lg mx-auto mt-16 bg-white p-8 rounded-2xl shadow-md"
+          >
+            <h1 class="text-2xl font-semibold text-center mb-6 text-purple-700">
+              Transfer Money
+            </h1>
+
+            <form id="transferForm" class="space-y-4">
+              <div>
+                <label class="block text-gray-700 mb-1">Select Receiver</label>
+                <select
+                  id="receiverEmail"
+                  required
+                  class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                >
+                  <option value="" disabled selected>Select a user</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-gray-700 mb-1">Amount</label>
+                <input
+                  type="number"
+                  id="transferAmount"
+                  required
+                  min="1"
+                  class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="Enter amount"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-md font-medium"
+              >
+                Send Money
+              </button>
+            </form>
+
+            <div id="resultMsg" class="mt-4 text-center font-semibold"></div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="atmdata.js"></script>
+
+    <script>
+      // Fetch users from localStorage (assuming array of objects like [{email:"a@gmail.com", name:"Ali"}, ...])
+      const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
+
+      const receiverSelect = document.getElementById("receiverEmail");
+      const currentLoginUser = localStorage.getItem("loggedInUser") || null;
+
+      // Populate dropdown with user emails (excluding logged-in user)
+      existingUsers.forEach((user) => {
+        if (user.email !== currentLoginUser) {
+          const option = document.createElement("option");
+          option.value = user.email;
+          option.textContent = `${user.fullname} - (${user.email})`;
+          receiverSelect.appendChild(option);
+        }
+      });
+    </script>
+  </body>
+</html>
